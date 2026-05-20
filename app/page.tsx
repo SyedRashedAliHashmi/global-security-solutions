@@ -204,13 +204,13 @@ export default function Home() {
             Professional grade security solution for modern surveillance.
           </p>
 
-          <a
-            href="https://wa.me/918919276612"
-            target="_blank"
-            className="inline-block mt-4 bg-yellow-400 text-black px-4 py-2 rounded-md font-semibold"
-          >
-            Inquiry on WhatsApp
-          </a>
+         <a
+  href={`https://wa.me/918919276612?text=Hi%20Global%20Security%20Solutions,%20I%20am%20interested%20in%20${encodeURIComponent(p.name)}.%20Please%20share%20price%20and%20details.`}
+  target="_blank"
+  className="inline-block mt-4 bg-yellow-400 text-black px-4 py-2 rounded-md font-semibold"
+>
+  Inquiry on WhatsApp
+</a>
 
         </div>
 
